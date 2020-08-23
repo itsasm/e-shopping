@@ -5,11 +5,14 @@ import com.eshopping.enums.ProductType;
 
 public class Product {
 
-	private String name;
 	private int quantity;
+	private String name;
 	private double price;
 	private ProductType productType;
 	private ProductCategory category;
+	private double salesTax;
+
+	public Product() {}
 
 	public Product(String name, int quantity, double rate, ProductType productType, ProductCategory category) {
 		this.name = name;
@@ -57,6 +60,20 @@ public class Product {
 
 	public void setCategory(ProductCategory category) {
 		this.category = category;
+	}
+
+	public double getSalesTax() {
+		return salesTax;
+	}
+
+	public void setSalesTax(double salesTax) {
+		this.salesTax = salesTax;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [name=" + name + ", quantity=" + quantity + ", price=" + price + ", productType=" + productType
+				+ ", category=" + category + ", salesTax=" + salesTax + "]";
 	}
 
 }

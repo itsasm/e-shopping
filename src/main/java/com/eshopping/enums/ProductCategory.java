@@ -2,7 +2,7 @@ package com.eshopping.enums;
 
 public enum ProductCategory {
 
-	BOOKS("books"), FOOD("food"), MEDICAL("medical"), OHTERS("others");
+	BOOKS("books"), FOOD("food"), MEDICAL("medical"), OTHERS("others");
 
 	private String category;
 

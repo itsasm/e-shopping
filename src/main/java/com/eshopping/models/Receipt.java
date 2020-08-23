@@ -1,19 +1,18 @@
 package com.eshopping.models;
 
 import java.util.List;
-import java.util.Map;
 
 public class Receipt {
 
-	private Map<String, List<Product>> productList;
+	private List<Product> productList;
 	private double salesTax;
 	private double totalAmount;
 
-	public Map<String, List<Product>> getProductList() {
+	public List<Product> getProductList() {
 		return productList;
 	}
 
-	public void setProductList(Map<String, List<Product>> productList) {
+	public void setProductList(List<Product> productList) {
 		this.productList = productList;
 	}
 
