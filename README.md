@@ -2,9 +2,9 @@
 e-shopping portal
 
 Approach 1 :
-Please tyring running the Test cases by using - mvn test
+Please try running running the Test cases by using - mvn test
 
-Approach 2 :
+Approach 2 (Please refer src/main/resources/input-output/ folder):
 Please run the application first then try with these request from any rest client.
 
 Input 1:
