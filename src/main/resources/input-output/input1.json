@@ -1,0 +1,23 @@
+[
+	{
+		"quantity": 1,
+		"name": "B1",
+		"price": 12.49,
+		"productType": "DOMESTIC",
+		"category": "FOOD"
+	},
+	{
+		"quantity": 1,
+		"name": "CD",
+		"price": 14.99,
+		"productType": "DOMESTIC",
+		"category": "OTHERS"
+	},
+	{
+		"quantity": 1,
+		"name": "CHOCO",
+		"price": 0.85,
+		"productType": "DOMESTIC",
+		"category": "FOOD"
+	}
+]

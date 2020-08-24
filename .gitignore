@@ -1,4 +1,4 @@
-src/main/resources/input-output/*
+!src/main/resources/input-output/*
 */README.md
 HELP.md
 target/

@@ -1,0 +1,16 @@
+[
+	{
+		"quantity": 1,
+		"name": "CHOCO BOX",
+		"price": 10.0,
+		"productType": "IMPORTED",
+		"category": "FOOD"
+	},
+	{
+		"quantity": 1,
+		"name": "PERFUME",
+		"price": 47.50,
+		"productType": "IMPORTED",
+		"category": "OTHERS"
+	}
+]
